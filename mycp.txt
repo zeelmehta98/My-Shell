@@ -1,0 +1,37 @@
+MYCP(1)    
+
+NAME
+       mycp - copy files 
+
+SYNOPSIS
+       mycp [FLAGS] SOURCE DESTINATION
+
+DESCRIPTION
+       Copy SOURCE to DEST
+
+FLAGS
+
+       -v
+              explain what is being done
+
+       -i
+              prompt before overwrite (overrides a previous -n option)
+
+       -u
+              copy only when the SOURCE file is  newer  than  the  destination
+              file or when the destination file is missing
+       
+       -n     
+              do not overwrite an existing file (overrides a previous  -i  op‐
+              tion)
+
+
+       --help display this help and exit
+
+
+AUTHOR
+       Written by ZEEL MEHTA
+       IIT Ropar
+       2020CSM1021
+       Mtech CS 2020
+

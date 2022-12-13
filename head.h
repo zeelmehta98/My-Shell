@@ -1,0 +1,20 @@
+#include <stdio.h> 
+#include <sys/wait.h> 
+#include <unistd.h> 
+#include <sys/types.h> 
+#include <stdlib.h>
+#include <signal.h>
+#include <limits.h>
+#include <string.h>
+#include <readline/readline.h>
+#include <readline/history.h>
+#include <dirent.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <stddef.h>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
+#include <dirent.h>
+

@@ -1,0 +1,39 @@
+PS(1)                            User Commands                           PS(1)
+
+NAME
+       ps - report a snapshot of the current processes.
+
+SYNOPSIS
+       ps [options]
+
+DESCRIPTION
+       ps displays information about a selection of the active processes.  If
+       you want a repetitive update of the selection and the displayed
+       information, use top(1) instead.
+
+       This version of ps accepts several kinds of options:
+
+       Options of different types may be freely mixed, but conflicts can
+       appear.  
+
+       By default, ps selects all processes with the same effective user ID
+       (euid=EUID) as the current user and associated with the same terminal
+       as the invoker.  It displays the process ID (pid=PID), the terminal
+       associated with the process (tname=TTY), the cumulated CPU time in
+       [DD-]hh:mm:ss format (time=TIME), and the executable name (ucmd=CMD).
+       Output is unsorted by default.
+
+
+PROCESS SELECTION BY LIST
+       These options accept a single argument.  They can be used multiple times.  For
+       example: myps -p <pid>
+
+       p pid
+              Select by process ID.  Identical to -p and --pid.
+
+       --help to display this help and exit
+AUTHOR
+       Written by ZEEL MEHTA
+       IIT Ropar
+       2020CSM1021
+       Mtech CS 2020
