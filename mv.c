@@ -1,5 +1,7 @@
 #include "head.h"
 
+//contriubuted by zeel
+
 /*
 gedit test.txt
 "Write something in file"
